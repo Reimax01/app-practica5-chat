@@ -43,7 +43,7 @@
     resize: none;
 }
 #send-msg-btn{
-    background: #999;
+    background: rgb(12, 131, 201);
     border-radius: 0px 0px 20px 0px;
     width: 75px;
 }
@@ -53,7 +53,7 @@
 }
 #send-msg-btn:hover{
     cursor: pointer;
-    background: rgb(75, 75, 75);
+    background: rgb(1, 18, 54);
 }
 /*Usuarios en Linea*/
 .user{
