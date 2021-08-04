@@ -1,6 +1,6 @@
 const bodyParser = require('body-parser');
 const express = require('express');
-
+const puerto = process.env.PORT || 3000;
 const app = express();
 
 const server = require('http').Server(app);
@@ -19,6 +19,6 @@ app.set('view engine','pug');
 
 require('./app/sockets')(io);
 
-server.listen(3000, function(){
+server.listen( puerto, function(){
     console.log('Servidor corriendo en el puerto 3000');
 });
