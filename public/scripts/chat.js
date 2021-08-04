@@ -1,7 +1,6 @@
-const { indexOf } = require("../../app/users");
-
+const puerto = process.env.PORT || 3000;
 $(document).ready(function(){
-    var socket = new io.socket(); //io.connect(window.location.hostname);
+    var socket = io('https://app-practica5-chat.herokuapp.com:'+puerto);
     username(socket);
     updateUsers(socket);
     newMessage(socket);
