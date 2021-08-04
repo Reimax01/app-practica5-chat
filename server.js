@@ -4,9 +4,7 @@ const puerto = process.env.PORT || 3000;
 const app = express();
 
 const server = require('http').Server(app);
-var io = require('socket.io').listen(server);
-io.set('origins', '*:*');
-io.set('match origin protocol', true);
+var io = require('socket.io')(server);
 const Router = require('./app/router');
 
 app.use(bodyParser.json());
