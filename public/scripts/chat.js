@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-    var socket = io('https://app-practica5-chat.herokuapp.com:3000');
+    var socket = io.connect("\/\/"+window.location.hostname+":"+location.port);//io('https://app-practica5-chat.herokuapp.com:3000');
     username(socket);
     updateUsers(socket);
     newMessage(socket);
