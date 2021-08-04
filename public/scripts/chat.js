@@ -1,5 +1,7 @@
+const { indexOf } = require("../../app/users");
+
 $(document).ready(function(){
-    var socket = io.connect(window.location.hostname);
+    var socket = new io.socket(); //io.connect(window.location.hostname);
     username(socket);
     updateUsers(socket);
     newMessage(socket);

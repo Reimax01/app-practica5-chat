@@ -12,10 +12,13 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "bufferutil": "^4.0.3",
     "express": "^4.17.1",
     "jade": "^1.11.0",
     "pug": "^2.0.4",
-    "socket.io": "^2.1.1"
+    "socket.io": "^2.1.1",
+    "utf-8-validate": "^5.0.5",
+    "ws": "^8.0.0"
   },
   "engines": {
     "node": "^8.11.3"
