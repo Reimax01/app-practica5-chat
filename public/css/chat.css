@@ -6,9 +6,7 @@
 /*CHAT AREA*/
 #chat-area{
     display: flex;
-    height: 80%;
-    background-image: url('/images/bgchat.jpg');
-    background-size: cover; 
+    height: 80%; 
 }
 #messages{
     background: #fff;
@@ -17,6 +15,8 @@
     display: flex;
     flex: 3;
     padding: 20px;
+    background-image: url('/images/bgchat.jpg');
+    background-size: cover;
 }
 #users-list{
     background: #fff;
