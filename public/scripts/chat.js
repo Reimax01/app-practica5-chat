@@ -1,6 +1,5 @@
-const puerto = process.env.PORT || 3000;
 $(document).ready(function(){
-    var socket = io('https://app-practica5-chat.herokuapp.com:'+puerto);
+    var socket = io.connect("\/\/"+window.location.hostname+":"+location.port);//io('http://localhost:3000');
     username(socket);
     updateUsers(socket);
     newMessage(socket);
