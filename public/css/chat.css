@@ -1,9 +1,6 @@
 *{
-    align-items: center;
     background-image: url('/images/background.jpg');
-    background-size: cover;
-    display: flex;
-    justify-content: center;
+    background-size: cover;    
 }
 #container{
     background: #f2f2f2;
