@@ -1,7 +1,4 @@
-*{
-    background-image: url('/images/background.jpg');
-    background-size: cover;    
-}
+
 #container{
     background: #f2f2f2;
     padding: 25px 50px;
@@ -10,6 +7,8 @@
 #chat-area{
     display: flex;
     height: 80%;
+    background-image: url('/images/bgchat.jpg');
+    background-size: cover; 
 }
 #messages{
     background: #fff;
