@@ -1,3 +1,10 @@
+*{
+    align-items: center;
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
 #container{
     background: #f2f2f2;
     padding: 25px 50px;
