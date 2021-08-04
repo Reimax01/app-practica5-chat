@@ -5,6 +5,8 @@ const app = express();
 
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
+io = socket.listen(app);
+
 
 const Router = require('./app/router');
 

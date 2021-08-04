@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var socket = io('http://localhost:3000');
+    var socket = io.connect(window.location.hostname);
     username(socket);
     updateUsers(socket);
     newMessage(socket);
